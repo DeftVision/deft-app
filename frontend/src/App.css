@@ -1,11 +1,9 @@
-.App {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
+.page-content {
+    max-height: 100vh;
+    max-width: 100vw;
 }
 
-
-
+.toast-text {
+    color: white;
+    text-align: center;
+}

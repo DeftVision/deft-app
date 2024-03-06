@@ -23,7 +23,7 @@ export default function Sidebar () {
 
     return (
         <>
-            <Container fluid style={{marginLeft: "30px", marginTop: "30px"}}>
+            <Container style={{marginLeft: "30px", marginTop: "30px"}}>
             <FaIcons.FaBars onClick={menuOpen} className="me-auto"  style={{fontSize: "1.75rem"}}/>
             </Container>
             <Offcanvas show={show} onHide={menuClose}
